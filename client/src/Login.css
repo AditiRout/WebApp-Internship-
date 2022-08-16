@@ -39,35 +39,25 @@
   }
   .tutu{
     width: 157px;
-    height: 16px;
+    height: 75px;
+    text-align: center;
     position: absolute;
     right: 75%;
-    top: 5%;
+    top:-1%;
+    
     z-index: +1;
     border: none;
     background: #080D4Eff;
-    padding: 10px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    color: white;
     text-decoration:none;
-    
-  }
-  .tutla{
-    text-decoration: none;
-    color: white;
-  }
-  
-  #tri{
-    position: absolute;
-    width: 157px;
-    height: 161px;
-    left: 225.7px;
-    top: -28.33px;
-    color: white;
-    z-index: -1;
-    
-    background: #080D4Eff ;
     border-radius: 40px;
-    transform: rotate(41.18deg);
+    
   }
+ 
+  
+
   .form2{
     position: relative;
     justify-content: center;

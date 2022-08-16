@@ -62,8 +62,8 @@ const Signup = () => {
     <div>
     <div id='circle1'></div>
     <div id='circle2'></div>
-    <div id='tri'></div>
-    <button className='tutu'> <Link to={'/'} className='tutla'>GO TO SIGNUP</Link></button>
+    
+    <Link to={'/'} className="tutu">GO TO SIGNUP</Link>
     <form className='sideone form2'>
     <div className='container'>
     <h3>Sign Up</h3>
