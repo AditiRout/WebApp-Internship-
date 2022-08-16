@@ -11,6 +11,7 @@ body{
   background-color: black;
   font-family: sans-serif;
   color: white;
+  display: block;
 }
 .container1{
   display: flex;
@@ -45,8 +46,9 @@ body{
 .form-wrap{
   position: relative;
   left: 30px;
-  display: grid;
-  grid-template-columns: auto auto auto auto;
+  display: flex;
+  flex-direction: row;
+  
   column-gap: 4px;
   row-gap: 4px;
 }
@@ -106,4 +108,11 @@ body{
 }
 .btn-submit:hover{
   background-color: rgba(255, 255, 255, 1);
+}
+
+@media  screen and (max-width: 600px) {
+  .form-wrap{
+    flex-direction: column;
+  }
+  
 }

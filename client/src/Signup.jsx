@@ -35,7 +35,7 @@ const Signup = () => {
               "Content-type": "application/json",
             },
           };
-          const { data } = await axios.post("/api/user",
+          const { data } = await axios.post("https://web-backendapp.herokuapp.com/api/user",
             {
               firstname,
               lastname,

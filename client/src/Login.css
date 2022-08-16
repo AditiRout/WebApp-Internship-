@@ -73,7 +73,7 @@
     justify-content: center;
     align-self: center;
     border-radius: 3rem;
-    width:35%;
+    width:25rem;
     top: 5rem;
     left: 5rem;
     
@@ -101,7 +101,7 @@
     background-color: #B4BCCAff;
     
     
-    max-height: 300vh;
+   
     display: flex;
     font-weight: 400;
     
@@ -171,4 +171,14 @@ body, html, .App, #root, .auth-wrapper {
 }
 .forgot-password a {
   color: #F3F3F2ff;
+}
+
+@media screen and (max-width: 600px) {
+  .sideone{
+    left: 2rem;
+  }
+  .tutu{
+    left:14rem;
+  }
+  
 }
