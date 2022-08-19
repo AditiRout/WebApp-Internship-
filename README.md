@@ -4,7 +4,7 @@ Can try the demo at https://web-app-internship.netlify.app/
 ## Install the frontend
 
 ```bash
-git clone git@github.com:Srutip04/CLC.git
+git clone git@github.com:AditiRout/WebApp-Internship-.git
 cd client
 npm install
 npm start
@@ -13,7 +13,7 @@ npm start
 ## Install the backend
 
 ```bash
-git clone git@github.com:Srutip04/CLC.git
+git clone git@github.com:AditiRout/WebApp-Internship-.git
 cd server
 npm install
 npm start
